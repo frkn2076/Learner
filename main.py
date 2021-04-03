@@ -1,9 +1,17 @@
 import dlib
+from PIL import Image
 face_detector = dlib.get_frontal_face_detector()
 landmark_detector = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 #image path
-img_path = "****.jpg"
+img_path = "***.jpg"
+
+image = Image.open(img_path)
+
+#if images are not scaled, scale them.
+# new_image = image.resize((400, 400))
+
+# new_image.show()
 
 #read image with dlib
 img = dlib.load_rgb_image(img_path)
