@@ -9,3 +9,6 @@
 
 ## Dataset of Emotion Lab at Karolinska Institutet was used.
 * Please refer to https://www.emotionlab.se/kdef/
+
+
+**PS: Train Set and Test Set was added to project for demonstration.**
