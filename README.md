@@ -3,8 +3,8 @@
 
 * Dlib's prepared model was used to detect faces in the images (dlib.get_frontal_face_detector()).
 * Attached **shape_predictor_68_face_landmarks.dat** model was used to extract landmark positions on the faces.
-* Then our trainset was created to create our model by train data (**Train-Dataset** folder in project).
-
+* Our trainset (**Learner.train**) was created to create our model by train data (**Train-Dataset** folder in project).
+* Our testset (**Learner.test**) was created to test our model by test data (**Test-Dataset** folder in project).
 
 ## Dataset of Emotion Lab at Karolinska Institutet
 * Please refer to https://www.emotionlab.se/kdef/
