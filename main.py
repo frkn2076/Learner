@@ -28,12 +28,22 @@ def print_landmarks_to_file(img, faces, file, isSmile):
   # 1 represents smile class, -1 represents non-smile class.
   file.write("1 " if isSmile else "-1 ")
   
-  for n in range(0, 68):
+  featureIndex = 0
+  for n in range(0, 27):
     # x, y coordinates divided by 1000 for converting values 0-1 range.
     x = landmarks.part(n).x / 1000
     y = landmarks.part(n).y / 1000
-    file.write(f'{n*2+1}:{x} ')
-    file.write(f'{n*2+2}:{y} ')
+    file.write(f'{featureIndex*2+1}:{x} ')
+    file.write(f'{featureIndex*2+2}:{y} ')
+    featureIndex += 1
+
+  for n in range(36, 68):
+    # x, y coordinates divided by 1000 for converting values 0-1 range.
+    x = landmarks.part(n).x / 1000
+    y = landmarks.part(n).y / 1000
+    file.write(f'{featureIndex*2+1}:{x} ')
+    file.write(f'{featureIndex*2+2}:{y} ')
+    featureIndex += 1
   
   file.write("\n")
 
