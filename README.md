@@ -5,6 +5,12 @@
 * Attached **shape_predictor_68_face_landmarks.dat** model was used to extract landmark positions on the faces.
 * Our trainset (**Learner.train**) was created to create our model by train data (**Train-Dataset** folder in project).
 * Our testset (**Learner.test**) was created to test our model by test data (**Test-Dataset** folder in project).
+<br>
+<h1 align="center">68 Facial Landmarks</h1> 
+<p align="center">
+  <img src="https://github.com/frkn2076/Learner/blob/main/facial_landmarks_68markup.jpg" width="600" height="500">
+</p>
+<br>
 
 ## Dataset of Emotion Lab at Karolinska Institutet
 * Please refer to https://www.emotionlab.se/kdef/
