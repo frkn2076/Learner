@@ -6,10 +6,10 @@
 * Then our trainset was created to create our model by train data (**Train-Dataset** folder in project).
 
 
-## Dataset of Emotion Lab at Karolinska Institutet was used.
+## Dataset of Emotion Lab at Karolinska Institutet
 * Please refer to https://www.emotionlab.se/kdef/
 
-#### Dependencies: 
+## Dependencies: 
 * pip install cmake
 * pip install dlib
 * pip install numpy
