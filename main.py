@@ -70,7 +70,7 @@ test_smile_paths = get_paths(os.path.join('Test-Dataset', 'smile'))
 ## TRAIN DATA OPERATIONS ##########################################
 
 # open a file to print landmarks
-my_train_file = open("Learner.train","w")
+my_train_file = open(os.path.join('SVM', 'Learner.train'),'w')
 
 # Extracting landmarks of smile images
 print_landmarks_to_file_by_paths(my_train_file, train_smile_paths, True)
@@ -84,7 +84,7 @@ my_train_file.close()
 ## TEST DATA OPERATIONS ###########################################
 
 # open a file to print landmarks
-my_test_file = open("Learner.test","w")
+my_test_file = open(os.path.join('SVM', 'Learner.test'),'w')
 
 # Extracting landmarks of smile images
 print_landmarks_to_file_by_paths(my_test_file, test_smile_paths, True)
