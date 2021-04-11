@@ -8,7 +8,7 @@
 <br>
 <h1 align="center">68 Facial Landmarks</h1> 
 <p align="center">
-  <img src="https://github.com/frkn2076/Learner/blob/main/facial_landmarks_68.jpg" width="600" height="500">
+  <img src="https://github.com/frkn2076/Learner/blob/main/68_facial_landmarks.jpg" width="600" height="500">
 </p>
 <br>
 
@@ -16,6 +16,12 @@
 * Please refer to https://www.kaggle.com/c/bda-2020-facial-expressions/data for dataset
   * pip install kaggle
   * kaggle datasets download -d xwdcrab/ckplus-ocface
+
+<br>
+
+## libSVM commands
+* svm-train Learner.train
+* svm-predict Learner.test Learner.train.model Learner.out
 
 <br>
 
