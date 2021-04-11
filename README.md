@@ -8,7 +8,7 @@
 <br>
 <h1 align="center">68 Facial Landmarks</h1> 
 <p align="center">
-  <img src="https://github.com/frkn2076/Learner/blob/main/facial_landmarks_68.jpg" width="600" height="500">
+  <img src="https://github.com/frkn2076/Learner/blob/main/68_facial_landmarks.jpg" width="600" height="500">
 </p>
 <br>
 
