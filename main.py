@@ -25,11 +25,11 @@ def print_landmarks_to_file(img, faces, file, isSmile):
   # detect facial landmarks
   landmarks = landmark_detector(img, face)
   
-  # 1 represents smile class, -1 represents non-smile class.
-  file.write("1 " if isSmile else "-1 ")
+  # +1 represents smile class, -1 represents non-smile class.
+  file.write("+1 " if isSmile else "-1 ")
   
   featureIndex = 0
-  for n in range(0, 27):
+  for n in range(17, 27):
     # x, y coordinates divided by 1000 for converting values 0-1 range.
     x = landmarks.part(n).x / 1000
     y = landmarks.part(n).y / 1000
@@ -65,7 +65,7 @@ def get_paths(folder_name):
 train_nonsmile_paths = get_paths(os.path.join('Train-Dataset', 'non-smile'))
 train_smile_paths = get_paths(os.path.join('Train-Dataset', 'smile'))
 test_nonsmile_paths = get_paths(os.path.join('Test-Dataset', 'non-smile'))
-test_smile_paths = get_paths(os.path.join('Test-Dataset', 'non-smile'))
+test_smile_paths = get_paths(os.path.join('Test-Dataset', 'smile'))
 
 ## TRAIN DATA OPERATIONS ##########################################
 
