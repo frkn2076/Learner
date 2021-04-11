@@ -19,6 +19,12 @@
 
 <br>
 
+## libSVM commands
+* svm-train Learner.train
+* svm-predict Learner.test Learner.train.model Learner.out
+
+<br>
+
 ## Dependencies: 
 * pip install cmake
 * pip install dlib
