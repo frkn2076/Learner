@@ -12,8 +12,12 @@
 </p>
 <br>
 
-## Dataset of Emotion Lab at Karolinska Institutet
-* Please refer to https://www.emotionlab.se/kdef/
+## Cohn Kanade Dataset
+* Please refer to https://www.kaggle.com/c/bda-2020-facial-expressions/data for dataset
+  * pip install kaggle
+  * kaggle datasets download -d xwdcrab/ckplus-ocface
+
+
 
 ## Dependencies: 
 * pip install cmake
@@ -21,6 +25,6 @@
 * pip install numpy
 * pip install Pillow
 
-
+<br>
 **PS: Train Set and Test Set was added to project for demonstration.**
 
